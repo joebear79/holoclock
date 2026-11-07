@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HoloClock Support</title>
+<style>
+  :root { --bg: #f7f8fb; --ink: #1c2230; --muted: #5a6476; --accent: #1f8fa6; --card: #ffffff; --line: #e3e7ee; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d1118; --ink: #e8edf5; --muted: #9aa6b8; --accent: #5fd3e8; --card: #151b25; --line: #263042; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px 24px; margin-bottom: 16px; }
+  h1 { margin: 0 0 4px; font-size: 30px; }
+  h2 { margin: 0 0 8px; font-size: 20px; }
+  .meta { color: var(--muted); margin: 0 0 8px; }
+  a { color: var(--accent); }
+  dt { font-weight: 600; margin-top: 14px; }
+  dd { margin: 4px 0 0; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>HoloClock Support</h1>
+    <p class="meta">A holographic clock for Apple Vision Pro, by JoeBear79 Studio.</p>
+    <p>Questions, problems or ideas? Email
+    <a href="mailto:JoseRamosMorenoJr@icloud.com?subject=HoloClock%20support">JoseRamosMorenoJr@icloud.com</a>
+    and include your visionOS version and what happened.</p>
+  </div>
+
+  <div class="card">
+    <h2>Common questions</h2>
+    <dl>
+      <dt>The weather isn't showing.</dt>
+      <dd>Allow Location for HoloClock in Settings › Apps › HoloClock. The weather comes from Apple Weather and needs an internet connection.</dd>
+      <dt>The alarm didn't go off during a Focus.</dt>
+      <dd>Add HoloClock to the allowed apps for that Focus in Settings › Focus. The headset needs to be on for the alarm to ring.</dd>
+      <dt>The Desk Buddies don't appear.</dt>
+      <dd>Allow surroundings access when asked, and look at a table or the floor for a moment so Apple Vision Pro can find it.</dd>
+      <dt>The calendar is empty.</dt>
+      <dd>Open the Calendar panel from the HoloClock Calendar widget and tap Allow Calendar.</dd>
+    </dl>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>HoloClock has no accounts, ads or tracking. Read the <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+</main>
+</body>
+</html>
